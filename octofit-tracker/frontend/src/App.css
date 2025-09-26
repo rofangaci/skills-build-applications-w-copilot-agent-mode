@@ -1,0 +1,97 @@
+
+
+body {
+  background: linear-gradient(135deg, #f3e6ff 0%, #e0c3fc 100%);
+  color: #007bff;
+}
+
+.App {
+  text-align: center;
+  background: transparent;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navbar-nav .nav-link {
+  color: #f8fafc !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.table {
+  background: #e3f0ff;
+  color: #222;
+}
+.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f8fafc;
+}
+
+
+.btn {
+  border-radius: 2rem;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  color: #fff !important;
+  border: none !important;
+}
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-secondary,
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #00c6ff;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+  float: left;
+  margin-left: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
